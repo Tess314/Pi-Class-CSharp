@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Pi
 {
@@ -9,6 +9,7 @@ namespace Pi
             Pi p = new Pi();
             p.PiCalc();
             p.Display();
+            p.SaveImage();
             Console.ReadLine();
 
         }
